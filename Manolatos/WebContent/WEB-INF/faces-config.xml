@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+	version="2.2">
+
+	<application>
+		<!-- Cargar paquete de recursos con los errores de validacion -->
+		<message-bundle id="bundle">recursos</message-bundle>
+
+		<resource-bundle>
+			<base-name>recursos</base-name>
+			<var>paquete</var>
+		</resource-bundle>
+	</application>
+
+	<!-- Crear reglas de navegacion -->
+	<navigation-rule>
+		<from-view-id>/index.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>login</from-outcome>
+			<to-view-id>/admin-panel.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	
+		<!-- Regla de navedacion panel administrador -->
+	<navigation-rule>
+		<from-view-id>/admin-panel.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>admin-user</from-outcome>
+			<to-view-id>/vista-admin-usuarios.jsp</to-view-id>
+		</navigation-case>
+		<navigation-case>
+			<from-outcome>admin-tareas</from-outcome>
+			<to-view-id>/vista-admin-tareas.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+
+	
+	
+</faces-config>

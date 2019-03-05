@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+
+.space {
+	height: 60px;
+}
+/**
+**MENU**
+***/
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.menu, header {
+	width: 100%;
+	position: fixed;
+	background: #0080FF;
+	color: #ffffff;
+	top: 0px;
+	height: 70px;
+}
+
+.menu div {
+	float: left;
+}
+
+.menu .menu-link {
+	width: 23%;
+	float: right;
+}
+
+.menu .user-p {
+	width: 23%;
+	float: right;
+	border-left: solid 1px #eeeeee;
+	padding-left: 18px:
+}
+
+.item-menu {
+	padding: 5px 20px 5px 20px;
+	line-height: 60px;
+	text-align: right;
+}
+
+.menu .logo {
+	width: 31%;
+	font-size: 35px;
+	line-height: 65px;
+	padding-left: 135px;
+}
+
+/***formulario*****/
+.form {
+	border: solid 0px #000000;
+	width: 350px;
+	margin: auto;
+	height: auto;
+	padding: 40px 40px 50px 50px;
+	background-color: #0080FF;
+	margin-top: 100px;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.h-title {
+	margin-bottom: 20px;
+	margin-top: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.h-subtitle {
+	margin-bottom: 40px;
+	margin-top: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.username-input input, .password-input input {
+	height: 40px;
+	width: 92%;
+	margin-bottom: 35px;
+	font-size: 18px;
+	color: #0080FF;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	border: solid 1px #ffffff
+}
+
+.username-input input:focus, .password-input input:focus {
+	border: solid 1px #222222;
+}
+
+.button input[type="submit"] {
+	width: 90px;
+	height: 40px;
+	border: 0;
+	border-radius: 0;
+	font-size: 18px;
+	background-color: #ffffff;
+	color: #0080FF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button-panel input[type="submit"] {
+	width: 140px;
+	height: 40px;
+	border: 0;
+	border-radius: 0;
+	font-size: 18px;
+	background-color: #0080FF;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	float: right;
+}
+
+.button input[type="submit"]:hover, .button-panel input[type="submit"]:hover
+	{
+	background-color: #222222;
+	color: #ffffff;
+}
+
+/*****
+/**PANEL USER**
+**/
+.panels {
+	width: 66%;
+	margin: auto;
+}
+
+.bigger {
+	font-size: 28px;
+}
+
+.panels p {
+	line-height: 25px;
+}
+
+.panel-user, .panel-tareas {
+	border: solid 0px #000000;
+	width: 300px;
+	margin: auto;
+	height: auto;
+	padding: 40px 40px 50px 50px;
+	background-color: #0080FF;
+	margin-top: 150px;
+	float: left;
+}
+
+.panel-user .button input[type="submit"], .panel-tareas .button input[type="submit"]
+	{
+	width: 120px;
+	margin-top: 20px;
+}
+
+.panel-user {
+	background-color: #1eff4e;
+	margin-right: 90px;
+}
+
+.panel-tareas {
+	background-color: #0072ff;
+}
+/*****
+/**TAREAS**
+**/
+.center {
+	text-align: center;
+}
+
+.v-tareas td {
+	padding-left: 20px;
+}
+
+.vis-title {
+	margin-top: 150px;
+}
+
+.v-tareas {
+	border: solid 0px #cccccc;
+	width: 100%;
+	margin: auto;
+}
+
+.v-title {
+	height: 40px;
+}
+
+.grey-background {
+	background: #cccccc;
+}
+
+.light-grey-background {
+	background: #eeeeee;
+}
+
+
+.buscar{width:22%;}
+.buscar input{
+	height: 40px;
+	width: 100%;
+	margin-bottom: 0px;
+	font-size: 18px;
+	color: #0080FF;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	border: solid 1px #cccccc;
+	float:left;
+}
